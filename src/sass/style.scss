@@ -1,1 +1,41 @@
 /* main */
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0.3em;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2em;
+    padding-bottom: 1em;
+}
+
+body {
+    line-height: 1.5;
+  }
+  
+h1 {
+    font-size: 52px;
+    line-height: 2;
+}
+
+h2 {
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 1em;
+}
+
+p {
+    max-width: 65ch;
+    line-height: 1.8;
+}
+
+.container > p {
+    padding-bottom: 1.8em;
+}
+
+about > blockquote{
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
