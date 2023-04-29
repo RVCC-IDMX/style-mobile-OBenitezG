@@ -5,6 +5,15 @@
     margin: 0.3em;
 }
 
+.skip-link {
+    position: absolute;
+    transform: translateY(-220%);
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
 ul {
     list-style-type: none;
     line-height: 2em;
